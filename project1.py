@@ -3,6 +3,7 @@
 import cv2
 import numpy as np
 import urllib
+a=12
 face_data="haarcascade_frontalface_default.xml"
 classifier=cv2.CascadeClassifier(face_data)
 URL='http://10.20.246.217:8080/shot.jpg'
