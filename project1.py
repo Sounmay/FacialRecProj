@@ -7,7 +7,7 @@ a=12
 face_data="haarcascade_frontalface_default.xml"
 classifier=cv2.CascadeClassifier(face_data)
 URL='http://10.20.246.217:8080/shot.jpg'
-data=[]
+data=[] //changes
 ret=True
 while ret:
     image_url=urllib.request.urlopen(URL)
