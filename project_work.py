@@ -11,6 +11,8 @@ import cv2
 import numpy as np
 import pickle
 
+a=10
+
 def preprocessing(image):
     image = cv2.resize(image,(200,200))
     image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
